@@ -1,17 +1,12 @@
 
+DROP TABLE IF EXISTS `burgers`;
 
-CREATE DATABASE burger_db;
+CREATE TABLE `burgers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `eaten` tinyint(1) DEFAULT '0',
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+  );
 
-USE burger_db;
-
-CREATE TABLE burgers
-
-(
-
-id int NOT NULL AUTO_INCREMENT,
-name varchar(260) NOT NULL,
-eaten BOOLEAN DEFAULT false,
-date TIMESTAMP,
-PRIMARY KEY (id)
-
-);

@@ -1,26 +1,28 @@
 {
-  "name": "burger",
+  "name": "sequelized-burger",
   "version": "1.0.0",
-  "description": "Eat-da-burger project creates burgers , saves them to a SQL database, creates HTML in Handlebars and handles routes with Express",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/funduval/burger.git"
+    "url": "git+https://github.com/funduval/sequelized-burger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/funduval/burger/issues"
+    "url": "https://github.com/funduval/sequelized-burger/issues"
   },
-  "homepage": "https://github.com/funduval/burger#readme",
+  "homepage": "https://github.com/funduval/sequelized-burger#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.9",
-    "mysql": "^2.13.0"
+    "mysql": "^2.13.0",
+    "mysql2": "^1.4.0",
+    "sequelize": "^4.4.7"
   }
 }

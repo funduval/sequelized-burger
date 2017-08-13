@@ -1,7 +1,7 @@
-INSERT INTO burgers (name) VALUES ('Pizzaburger');
-INSERT INTO burgers (name) VALUES ('Hamburglarburger');
-INSERT INTO burgers (name) VALUES ('Bergburger');
-INSERT INTO burgers (name) VALUES ('Epicburger');
-INSERT INTO burgers (name, eaten) VALUES ('Kielbasaburger', true);
-INSERT INTO burgers (name, eaten) VALUES ('Meatburger', true);
+INSERT INTO burgers (name, eaten) VALUES ('Pizzaburger',false);
+INSERT INTO burgers (name, eaten) VALUES ('Hamburglarburger',false);
+INSERT INTO burgers (name, eaten) VALUES ('Bergburger',false);
+INSERT INTO burgers (name, eaten) VALUES ('Epicburger',false);
+INSERT INTO burgers (name, eaten) VALUES ('Kielbasaburger', false);
+INSERT INTO burgers (name, eaten) VALUES ('Meatburger', false);
 
