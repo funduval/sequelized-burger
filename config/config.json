@@ -19,7 +19,9 @@
     "password": "h4lt30tkj490wcbi",
     "database": "bxeua88cygtw0gr1",
     "host": "a07yd3a6okcidwap.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "dialect": "mysql"
+    "dialect": "mysql",
+   "use_env_variable": "mysql://oll7f57yvb9uh3bs:h4lt30tkj490wcbi@a07yd3a6okcidwap.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bxeua88cygtw0gr1"
+
   }
 }
 
