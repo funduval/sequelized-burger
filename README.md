@@ -3,7 +3,7 @@
 ## Eat-da-burger: The Sequel uses Sequelize to create burgers, delete, save and update boolean values in a MySQL database, and pulls data into the HTML using Handlebars.
 
 
-```
+
 Here are some links to a short demo in HD and mobile:
 
 
